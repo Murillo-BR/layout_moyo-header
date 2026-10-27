@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -34,7 +34,7 @@ body {
   line-height: 80px;
 }
 
-.nav__list li:not(:first-child):not(:last-child) {
+.nav__list li:not(:first-child, :last-child) {
   margin-left: 20px;
 }
 
